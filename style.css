@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    border:0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    background-image: url("img/1268172.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat, repeat;
+    display: block;
+}
+.video{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height:auto;
+    width: 100%;
+    padding: 20px 0px 50px 0px;
+    margin: 0;
+}
+video{
+    height:auto;
+    min-width: 65%;
+    max-width: 750px;
+    border: 1px solid rgb(37, 37, 37);
+}
+
+.Heading section{
+    display: flex;
+    color: antiquewhite;
+    text-align: center;
+    margin: 0;
+    padding-top:20px ;
+    display: flex;
+    justify-content: center;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+.image{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height:auto;
+    width: 100%;
+    padding: 20px 0px 50px 0px;
+    margin: 0;
+    background-color: rgba(90, 88, 88, 0.1);
+}
+
+.image img{
+    height: auto;
+    min-width: 65%;
+    max-width: 750px;
+    border: 1px solid rgb(37, 37, 37);
+}
+.bio h1{
+    text-align: center;
+    padding:20px 0px 20px 0px;
+    color: white;
+}
+.bio section{
+    width: 55%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0% 1% 3% 1%;
+    color: #fff;
+    font-size: 1.3em;
+}
+
+.bio section:after{
+    content: "";
+    display: flex;
+    width: 100%;
+    height: 2px;
+    background: white;
+    left: 0;
+    margin-top: 2em;
+    justify-content: center;
+    text-align: center;
+    
+}
+.lastDiv section{
+    color: #fff;
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.middleText{
+    display: flex;
+    color: #fff;
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 40px;
+    justify-content: center;
+    width: 100%;
+}
+
+.middleText dl dd{
+    color: rgb(168, 182, 204);
+    margin-left: 12em;
+    margin-top: 0.2em;
+}
+.middleText dl dt{
+    min-width: 50%;
+    max-width: 600px;
+}
